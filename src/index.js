@@ -53,6 +53,7 @@ function parseMarkdownToHtml(markdown, convertEmojis, enableHighlight) {
   const options = {
     prefixHeaderId: false,
     ghCompatibleHeaderId: true,
+    simpleLineBreaks: false,
     extensions: []
   };
   
